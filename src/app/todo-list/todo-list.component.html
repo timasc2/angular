@@ -1,0 +1,3 @@
+<div class="todo-list">
+    <app-todo-item *ngFor="let todo of todos" [todo]="todo" (delete)="delete($event)" (toggle)="toggle($event)"></app-todo-item>
+</div>
