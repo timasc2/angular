@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
 
+const todos = [
+  'таск 1',
+  'таск 2',
+  'таск 3',
+];
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +13,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  todos = todos;
 }
